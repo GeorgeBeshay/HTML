@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="This is my description" />
+		<title>Book Store</title>
+	</head>
+	<body>
+		<div>
+			<h1>Book Store</h1>
+			<p>This is my Book Store, Welcome.</p>
+			<hr />
+			<br />
+		</div>
+		<form action="" method="get">
+			<input type="hidden" value="George" />
+			<div>
+				<label for="UN">Username</label>
+				<br />
+				<input
+					type="text"
+					required
+					placeholder="Username"
+					name="User"
+					value="George"
+					readonly
+					id="UN"
+				/>
+			</div>
+			<br />
+			<div>
+				<label for="Sub">ٍSubject</label>
+				<br />
+				<input type="text" name="Subject" autofocus id="Sub" />
+			</div>
+			<br />
+			<div>
+				<label for="PW">Password</label>
+				<br />
+				<input
+					type="password"
+					required
+					placeholder="Write a Strong Password"
+					name="PW"
+					minlength="10"
+					maxlength="20"
+					id="PW"
+				/>
+			</div>
+			<br />
+			<div>
+				<label for="Mail">Email</label>
+				<br />
+				<input
+					type="email"
+					required
+					placeholder="Valid Email"
+					value="o@nn.sa"
+					name="Mail"
+					disabled
+					id="Mail"
+				/>
+			</div>
+			<br />
+			<div>
+				<label for="Color">Color</label>
+				<br />
+				<input type="color" name="Color" id="Color" />
+			</div>
+			<br />
+			<div>
+				<label for="Range">Range</label>
+				<br />
+				<input
+					type="Range"
+					name="Range"
+					min="0"
+					max="100"
+					step="20"
+					value="0"
+					id="Range"
+				/>
+			</div>
+			<br />
+			<div>
+				<label for="Num">Number</label>
+				<br />
+				<input
+					type="number"
+					name="Number"
+					min="10"
+					max="100"
+					step="10"
+					value="0"
+					id="Num"
+				/>
+			</div>
+			<hr />
+			<h3><i>Choose Your Operating System:</i></h3>
+			<div>
+				<input id="W" type="radio" name="os" value="Windows" checked />
+				<label for="W">Windows</label>
+			</div>
+			<div>
+				<input id="L" type="radio" name="os" value="Linux" />
+				<label for="L">Linux</label>
+			</div>
+			<div>
+				<input id="M" type="radio" name="os" value="Mac" />
+				<label for="M">Mac</label>
+			</div>
+			<hr />
+			<h3>
+				<i
+					>Please Check The Programming Languages at which your skill is
+					moderate or higher:</i
+				>
+			</h3>
+			<div>
+				<input id="Py" type="checkbox" name="Py" checked />
+				<label for="Py">Python</label>
+			</div>
+			<div>
+				<input id="C" type="checkbox" name="C" />
+				<label for="C">C</label>
+			</div>
+			<div>
+				<input id="Java" type="checkbox" name="Java" />
+				<label for="Java">Java</label>
+			</div>
+			<hr />
+			<div>
+				<label for="book"
+					><h3><i>Please Choose a book: </i></h3></label
+				>
+				<select name="book" id="book" multiple>
+					<optgroup label="Type A">
+						<option value="OP1">Book 1</option>
+						<option value="OP2" selected>Book 2</option>
+						<option value="OP3">Book 3</option>
+					</optgroup>
+					<optgroup label="Type B">
+						<option value="OP4">Book 4</option>
+						<option value="OP5">Book 5</option>
+						<option value="OP6">Book 6</option>
+					</optgroup>
+				</select>
+			</div>
+			<hr />
+			<div>
+				<label for="TextArea"
+					><h3><i>Subject:</i></h3></label
+				>
+				<textarea
+					name="Subject"
+					id="TextArea"
+					cols="30"
+					rows="10"
+					placeholder="Please Enter the Topic Subject"
+				></textarea>
+			</div>
+			<hr />
+			<input type="reset" value="Reset" />
+			<input type="submit" value="Save" />
+			<br />
+			<br />
+		</form>
+		<marquee
+			behavior=""
+			direction="right"
+			bgcolor="powderblue"
+			hspace="50"
+			vspace="5"
+			><i>&copy; George Beshay</i></marquee
+		>
+		<br />
+	</body>
+</html>
