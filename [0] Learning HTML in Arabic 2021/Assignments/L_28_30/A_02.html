@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="This is the description." />
+		<title>The 101 Pro Form</title>
+	</head>
+	<body>
+		<h1><i>The 101 Pro Form</i></h1>
+		<hr />
+		<form action="" method="get">
+			<div>
+				<h3>Contact Information</h3>
+				<label for="T" hidden>Token</label>
+				<!-- <br> -->
+				<input
+					type="text"
+					name="Token"
+					id="T"
+					hidden
+					value="b92f1fc2fce391ad7af633723afd3055"
+				/>
+			</div>
+			<!-- <br> -->
+			<div>
+				<label for="E">Email</label>
+				<br />
+				<input type="text" name="Email" id="E" value="o@o.com" readonly />
+			</div>
+			<br />
+			<div>
+				<label for="UN">Username</label>
+				<br />
+				<input
+					type="text"
+					name="Username"
+					placeholder="Enter A Username"
+					id="UN"
+					autofocus
+					minlength="5"
+					maxlength="20"
+					required
+				/>
+			</div>
+			<hr />
+			<div>
+				<h3>Skills</h3>
+				<input type="checkbox" id="Problem Solving" checked />
+				<label for="Problem Solving">Problem Solving</label>
+				<br />
+				<input type="checkbox" id="Logical Thinking" />
+				<label for="Logical Thinking">Logical Thinking</label>
+				<br />
+				<input type="checkbox" id="Advanced Search" />
+				<label for="Advanced Search">Advanced Search</label>
+				<br />
+				<input type="checkbox" id="Analysis" />
+				<label for="Analysis">Analysis</label>
+				<br />
+				<input type="checkbox" id="Planning" />
+				<label for="Planning">Planning</label>
+			</div>
+			<hr />
+			<div>
+				<h3>Job</h3>
+				<input type="radio" name="FED" id="FED" />
+				<label for="FED">Front-End Developer</label>
+				<br />
+				<input type="radio" name="BED" id="BED" checked />
+				<label for="BED">Back-End Developer</label>
+				<br />
+				<input type="radio" name="BA" id="BA" />
+				<label for="BA">Business Analyst</label>
+				<br />
+				<input type="radio" name="PM" id="PM" />
+				<label for="PM">Project Manager</label>
+				<br />
+				<input type="radio" name="SM" id="SM" />
+				<label for="SM">Scrum Master</label>
+			</div>
+			<br />
+			<div>
+				<input type="submit" value="Send" />
+				<input type="reset" value="Empty" />
+			</div>
+		</form>
+		<hr />
+		<marquee behavior="" direction="right" hspace="50" bgcolor="powderblue">
+			<b><i>&copy;George Beshay</i></b>
+		</marquee>
+	</body>
+</html>
